@@ -1,0 +1,234 @@
+body {
+    background-color: #f5f5f5;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blackbar {
+    background-color: rgb(22, 26, 36);
+    height: 2rem;
+    display: flex;
+    gap: 5px;
+    margin-left: -1rem;
+    padding: 1rem 0rem 1rem 2.5rem;
+    align-items: center;
+    margin-top: -1px;
+    border-bottom-right-radius: 10px;
+}
+.logo{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    background-color: #d6d6d6;
+    border: none;
+}
+.logoimage {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    object-fit: cover;
+    border: none;
+}
+#leftpart {
+    display: flex;
+    margin-right: 30rem;
+    align-items: center;
+}
+
+.dropbtn {
+    text-decoration: none;
+    background-color: inherit;
+    color: #d6d6d6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+i .fas fa-user-friends{
+    color: #000000;
+    margin-left: -3px;
+
+}
+i .fas fa-angle-down {
+    color: #d6d6d6
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #d6d6d6;
+
+}
+
+.search-holder{
+    width: 17rem;
+    padding: 5px;
+    border: solid .1px grey;
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(41, 41, 41);
+}
+
+.searchbar {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    width: 15rem;
+    height: 1rem;
+    border-radius: 5px;
+}
+
+#signin{
+    text-decoration: none;
+    background-color: inherit;
+    color: #d6d6d6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#signup{
+    text-decoration: none;
+    background-color: inherit;
+    color: #d6d6d6;
+    border: solid .8px #d6d6d6;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.whitebox {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px rgb(212, 212, 212) solid;
+    gap: 1.5rem;
+    height: 2rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.repobody {
+    display: grid;
+    grid-template-columns: 0.7fr 1.2fr 1.2fr;
+}
+
+.image{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 17rem;
+    margin: -25px 0px 2rem 10px;
+}
+
+.img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 17rem;
+    object-fit: cover;
+}
+
+.firstcolumn {
+    padding-left: 7rem;
+    padding-right: 1rem;
+}
+
+.followbox {
+    display: grid;
+
+}
+
+.almacky {
+    font-weight:600;
+    width: fit-content;
+    height: fit-content;
+    margin-top: -10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.firstcolumn #Almacky1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+    color: rgb(87, 87, 87);
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.followbutton {
+    width: 14rem;
+    height: 1.6rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 1px 1px 2px 1px rgb(211, 210, 210);
+    border-radius: 5px;
+    border: none;
+}
+
+.followers {
+    margin-bottom: 1rem;
+}
+
+.repobox {
+    border: 0.5px solid rgb(189, 188, 188);
+    border-radius: 5px;
+    padding: 1rem 1rem 2rem 1rem;
+    margin-top: 12px;
+    max-height: 5rem;
+    width: 20rem;
+    color:rgb(102, 102, 102);
+}
+
+.fileandstar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ashcolorbox{
+    border:none;
+    background-color: darkgray;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+.orangecolorbox{
+    border:none;
+    background-color: rgb(206, 106, 24);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+.secondcolumn {
+    padding: 4rem 10px 10px 2rem;
+}
+
+.thirdcolumn {
+    padding-top: 85px;
+    padding-right: 13rem;
+    padding-bottom: 10px;
+}
+
+.bluetext {
+    color: rgb(57, 135, 224); ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.textandbutton {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.publicbutton {
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    right: 0;
+    border: solid 1px rgb(102, 102, 102);
+    padding: 0px 5px 0px 5px;
+    border-radius: 15px;
+}

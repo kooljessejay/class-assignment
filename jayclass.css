@@ -1,0 +1,132 @@
+.section {
+        height: 43rem;
+        width: 30rem;
+        background-color: rbg(92, 55, 224);
+        background-image: url(my.jp);
+    }
+    
+    .status {
+        display: flex;
+        height: 30px;
+        background-color: rgb(255, 248, 240);
+        opacity: 70%;
+        margin-bottom: 9px;
+    }
+    
+    .network {
+        height: 15px;
+        width: 20px;
+        padding: 0px 100px 0px 50px;
+        margin: 7px;
+    }
+    
+    span {
+        margin-top: 7px;
+    }
+    
+    .battery {
+        height: 15px;
+        width: 20px;
+        padding: 0px 20px 0px 100px;
+        margin-top: 7px;
+    }
+    
+    div {
+        display: flex;
+        float: left;
+        gap: 4rem;
+    }
+    
+    .icons {
+        display: grid;
+        margin-left: 3rem;
+        color: azure;
+    }
+    
+    .icons0 {
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+    }
+    
+    .icons2 {
+        height: 50px;
+        width: 50px;
+        margin-top: -4rem;
+    }
+    
+    .icons3 {
+        height: 50px;
+        width: 50px;
+        margin-top: -5rem;
+    }
+    
+    .icons4 {
+        height: 50px;
+        width: 50px;
+        margin-top: -6rem;
+    }
+    
+    .icons5 {
+        height: 50px;
+        width: 50px;
+        margin-top: -6,5rem;
+    }
+    
+    .mnenu0 {
+        height: 70px;
+        width: 30px;
+        display: flex;
+        margin-top: 3,5rem;
+        background-color: (red, blue, black);
+        opacity: 70%;
+    }
+    
+    .mnenu0 .my_manue {
+        height: 3.3rem;
+        width: 3.3rem;
+        margin-left: 60px;
+    }
+    
+    .my_manue{
+        margin: 7px 0 0 0;
+        opacity: 100%;
+    }
+    
+    img{
+        border-radius: 15px;
+    }
+    
+    .line1 {
+        margin-top: -70px;
+        font-size: xx-small;
+        font-weight:lighter;
+    }
+    
+    .line2 {
+        margin-top: -52rem;
+        font-size: xx-small;
+        font-weight:lighter;
+        justify-content: space-between;
+    }
+    
+    .line3 {
+        margin-top: -6.3rem;
+        font-size: xx-small;
+        font-weight:lighter;
+        justify-content: space-between;
+    }
+    
+    .line4 {
+        margin-top: -7.2rem;
+        font-size: xx-small;
+        font-weight:lighter;
+        justify-content: space-between;
+    }
+    
+    .line5 {
+        margin-top: -7.5rem;
+        font-size: xx-small;
+        font-weight:lighter;
+        justify-content: space-between;
+    }

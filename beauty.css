@@ -1,0 +1,27 @@
+rec {
+    padding: 2.5rem 10rem 2.5rem 10rem;
+    margin: 10rem;
+    width: 600px;
+    height: 400px;
+    background-color: green;
+    border: solid 5px;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.circle {
+    background-color: green;
+    border: solid 3px #ffffff;
+    border-radius: 50% 50% 50% 50% 50%;
+    padding: 3rem 1rem 3rem 1rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    width: 300px;
+    height: 300pxt;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    padding-left: 125px;
+    color: chokolate;
+}
